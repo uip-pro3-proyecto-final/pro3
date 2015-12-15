@@ -1,4 +1,4 @@
-#Arquimedes Escartín
+#Arquimedes Escartï¿½n
 #8-863-235
 #Software de restaurante en el que por cierta calificacion de servicio se introduce una cifra de donacion/propina
 #y se le hace beneficio a una ONG
@@ -44,7 +44,7 @@ class RestaurantFinoFino(App):
         global starting_tip
         starting_tip = 10
 
-        # Diseño/Layout.
+        # Diseï¿½o/Layout.
         Window.clearcolor = (1, 1, 1, 1)
         controls = AnchorLayout(
             anchor_x='right',
@@ -55,7 +55,7 @@ class RestaurantFinoFino(App):
             padding=10,
         )
 
-        # Título.
+        # Tï¿½tulo.
         apptitle = Label(
             text='Restaurante FinoFino',
             font_size=20,
@@ -66,7 +66,7 @@ class RestaurantFinoFino(App):
         )
 
         service_rating_label = Label(
-            text='De la escala del 1 al 5 cómo usted calificaria el servicio?',
+            text='De la escala del 1 al 5 cï¿½mo usted calificaria el servicio?',
             font_size=18,
             color=[0, 0, 0, 1],
         )
@@ -78,7 +78,7 @@ class RestaurantFinoFino(App):
         )
 
         food_rating_label = Label(
-            text='De la escala del 1 al 5 cómo usted calificaria la comida?',
+            text='De la escala del 1 al 5 cï¿½mo usted calificaria la comida?',
             font_size=18,
             color=[0, 0, 0, 1],
         )
@@ -163,3 +163,4 @@ class RestaurantFinoFino(App):
 
 if __name__ == '__main__':
     RestaurantFinoFino().run()
+__version__ = "0.0.1"
